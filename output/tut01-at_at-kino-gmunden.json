@@ -1,6 +1,6 @@
 {
   "crawler": {
-    "id": "at_at-kino-gmunden",
+    "id": "tut01-at_at-kino-gmunden",
     "is_booking_link_capable": false,
     "crawl-e": {
       "version": "0.5.2"

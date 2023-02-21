@@ -1,0 +1,10 @@
+{
+  "name": "ishowtime-crawlers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Ignacio Collantes",
+  "license": "MIT",
+  "dependencies": {
+    "crawl-e/v0.5.2": "http://www.bitbucket.org/cinepass/crawl-e.git#v0.5.2"
+  }
+}

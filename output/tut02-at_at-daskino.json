@@ -1,0 +1,329 @@
+{
+  "crawler": {
+    "id": "tut02-at_at-daskino",
+    "is_booking_link_capable": false,
+    "crawl-e": {
+      "version": "0.5.2"
+    }
+  },
+  "cinema": {
+    "name": "DAS KINO",
+    "address": "Giselakai 11, A-5020 Salzburg",
+    "website": "http://www.daskino.at/",
+    "phone": "0662-87 31 00"
+  },
+  "showtimes": [
+    {
+      "movie_title": "Pippi geht von Bord",
+      "start_at": "2023-02-21T13:45:00",
+      "is_3d": false,
+      "attributes": [
+        "Kinderkino"
+      ],
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
+      "start_at": "2023-02-21T15:15:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Der Räuber Hotzenplotz",
+      "start_at": "2023-02-21T15:30:00",
+      "is_3d": false,
+      "attributes": [
+        "Kinderkino"
+      ],
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Fuchs",
+      "start_at": "2023-02-21T17:15:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-21T17:45:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Triangle of Sadness",
+      "start_at": "2023-02-21T19:30:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Living",
+      "start_at": "2023-02-21T20:00:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Ich bin dein Mensch",
+      "start_at": "2023-02-22T14:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Senior:innenkino"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-22T17:30:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
+      "start_at": "2023-02-22T18:15:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Close",
+      "start_at": "2023-02-22T19:45:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
+      "start_at": "2023-02-23T15:15:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Was man von hier aus sehen kann",
+      "start_at": "2023-02-23T15:30:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Fuchs",
+      "start_at": "2023-02-23T17:15:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-23T17:45:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Die Frau im Nebel",
+      "start_at": "2023-02-23T19:30:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "The Banshees of Inisherin",
+      "start_at": "2023-02-23T20:00:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Die sichere Geburt",
+      "start_at": "2023-02-24T15:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Film & Gespräch | Die sichere Geburt"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Unruh",
+      "start_at": "2023-02-24T16:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-24T18:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Babylon – Rausch der Ekstase",
+      "start_at": "2023-02-24T20:30:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Mulholland Drive",
+      "start_at": "2023-02-24T21:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Cine Classic mit Adrian Goiginger"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Im Himmel ist auch Platz für Mäuse",
+      "start_at": "2023-02-25T14:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Kinderkino"
+      ],
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Living",
+      "start_at": "2023-02-25T15:45:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-25T18:00:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Babylon – Rausch der Ekstase",
+      "start_at": "2023-02-25T19:30:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Die Frau im Nebel",
+      "start_at": "2023-02-25T20:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Living",
+      "start_at": "2023-02-26T11:15:00",
+      "is_3d": false,
+      "attributes": [
+        "Matinee"
+      ],
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-26T11:45:00",
+      "is_3d": false,
+      "attributes": [
+        "Matinee"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Im Himmel ist auch Platz für Mäuse",
+      "start_at": "2023-02-26T13:30:00",
+      "is_3d": false,
+      "attributes": [
+        "Kinderkino"
+      ],
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
+      "start_at": "2023-02-26T14:00:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Unruh",
+      "start_at": "2023-02-26T15:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Fuchs",
+      "start_at": "2023-02-26T16:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Film & Gespräch | Der Fuchs"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Die Frau im Nebel",
+      "start_at": "2023-02-26T17:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Babylon – Rausch der Ekstase",
+      "start_at": "2023-02-26T19:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Sunday Special"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "The Banshees of Inisherin",
+      "start_at": "2023-02-26T20:00:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Living",
+      "start_at": "2023-02-27T15:00:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-27T17:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "The Banshees of Inisherin",
+      "start_at": "2023-02-27T17:45:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Die Frau im Nebel",
+      "start_at": "2023-02-27T19:30:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Kasperl und die Seepferdchen",
+      "start_at": "2023-02-28T15:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Spielplan 2022/2023"
+      ],
+      "auditorium": "SAAL Spielplan"
+    },
+    {
+      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
+      "start_at": "2023-02-28T15:30:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Der Fuchs",
+      "start_at": "2023-02-28T17:00:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-02-28T17:30:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Babylon – Rausch der Ekstase",
+      "start_at": "2023-02-28T19:15:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Unruh",
+      "start_at": "2023-02-28T19:45:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    }
+  ]
+}

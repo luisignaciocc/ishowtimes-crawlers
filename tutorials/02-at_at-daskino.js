@@ -28,7 +28,7 @@ let crawlE = new CrawlE({
           mapper: (value) => value.replace("Ticket", " ").split(" ")[1].trim(),
         },
         attributes: ".datetime .specials a span",
-        booking_link: ".datetime a @href",
+        booking_link: ".datetime a @href", // Found unknown key in crawler config: showtimes.movies.showtimes.booking_link
       },
     },
   },

@@ -1,6 +1,6 @@
 {
   "crawler": {
-    "id": "tut02-at_at-daskino",
+    "id": "02-at_at-daskino",
     "is_booking_link_capable": false,
     "crawl-e": {
       "version": "0.5.2"
@@ -13,81 +13,6 @@
     "phone": "0662-87 31 00"
   },
   "showtimes": [
-    {
-      "movie_title": "Pippi geht von Bord",
-      "start_at": "2023-02-21T13:45:00",
-      "is_3d": false,
-      "attributes": [
-        "Kinderkino"
-      ],
-      "auditorium": "GEWÖLBE"
-    },
-    {
-      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
-      "start_at": "2023-02-21T15:15:00",
-      "is_3d": false,
-      "auditorium": "SAAL"
-    },
-    {
-      "movie_title": "Der Räuber Hotzenplotz",
-      "start_at": "2023-02-21T15:30:00",
-      "is_3d": false,
-      "attributes": [
-        "Kinderkino"
-      ],
-      "auditorium": "GEWÖLBE"
-    },
-    {
-      "movie_title": "Der Fuchs",
-      "start_at": "2023-02-21T17:15:00",
-      "is_3d": false,
-      "auditorium": "SAAL"
-    },
-    {
-      "movie_title": "Der Geschmack der kleinen Dinge",
-      "start_at": "2023-02-21T17:45:00",
-      "is_3d": false,
-      "auditorium": "GEWÖLBE"
-    },
-    {
-      "movie_title": "Triangle of Sadness",
-      "start_at": "2023-02-21T19:30:00",
-      "is_3d": false,
-      "auditorium": "SAAL"
-    },
-    {
-      "movie_title": "Living",
-      "start_at": "2023-02-21T20:00:00",
-      "is_3d": false,
-      "auditorium": "GEWÖLBE"
-    },
-    {
-      "movie_title": "Ich bin dein Mensch",
-      "start_at": "2023-02-22T14:00:00",
-      "is_3d": false,
-      "attributes": [
-        "Senior:innenkino"
-      ],
-      "auditorium": "SAAL"
-    },
-    {
-      "movie_title": "Der Geschmack der kleinen Dinge",
-      "start_at": "2023-02-22T17:30:00",
-      "is_3d": false,
-      "auditorium": "GEWÖLBE"
-    },
-    {
-      "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
-      "start_at": "2023-02-22T18:15:00",
-      "is_3d": false,
-      "auditorium": "SAAL"
-    },
-    {
-      "movie_title": "Close",
-      "start_at": "2023-02-22T19:45:00",
-      "is_3d": false,
-      "auditorium": "GEWÖLBE"
-    },
     {
       "movie_title": "Maria träumt – oder: Die Kunst des Neuanfangs",
       "start_at": "2023-02-23T15:15:00",
@@ -323,6 +248,49 @@
       "movie_title": "Unruh",
       "start_at": "2023-02-28T19:45:00",
       "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Unruh",
+      "start_at": "2023-03-01T14:45:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Der Geschmack der kleinen Dinge",
+      "start_at": "2023-03-01T15:00:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Living",
+      "start_at": "2023-03-01T17:15:00",
+      "is_3d": false,
+      "auditorium": "GEWÖLBE"
+    },
+    {
+      "movie_title": "Babylon – Rausch der Ekstase",
+      "start_at": "2023-03-01T19:00:00",
+      "is_3d": false,
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Zug. Eine Reise mit Erich Kästner.",
+      "start_at": "2023-03-02T20:00:00",
+      "is_3d": false,
+      "attributes": [
+        "Ensemble Zelinzki"
+      ],
+      "auditorium": "SAAL"
+    },
+    {
+      "movie_title": "Die Fälschung",
+      "start_at": "2023-03-02T20:15:00",
+      "is_3d": false,
+      "attributes": [
+        "Massenmedien im Film",
+        "Mitgliedschaft"
+      ],
       "auditorium": "GEWÖLBE"
     }
   ]

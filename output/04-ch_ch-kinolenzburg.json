@@ -1,6 +1,6 @@
 {
   "crawler": {
-    "id": "tut04-ch_ch-kinolenzburg",
+    "id": "04-ch_ch-kinolenzburg",
     "is_booking_link_capable": false,
     "crawl-e": {
       "version": "0.5.2"

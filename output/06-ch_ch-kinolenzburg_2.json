@@ -1,0 +1,56 @@
+{
+  "crawler": {
+    "id": "06-ch_ch-kinolenzburg",
+    "is_booking_link_capable": false,
+    "crawl-e": {
+      "version": "0.5.2"
+    }
+  },
+  "cinema": {
+    "id": "2",
+    "name": "Kino Lenzburg - Löwen",
+    "address": "Leuengasse 14, 5600 Lenzburg"
+  },
+  "showtimes": [
+    {
+      "movie_title": "EIN MANN NAMENS OTTO",
+      "start_at": "2023-02-25T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "THE SON",
+      "start_at": "2023-02-24T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "THE SON",
+      "start_at": "2023-02-26T18:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "THE SON",
+      "start_at": "2023-02-27T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "DIE NACHBARN VON OBEN",
+      "start_at": "2023-02-23T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "DIE NACHBARN VON OBEN",
+      "start_at": "2023-02-25T17:15:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "DIE NACHBARN VON OBEN",
+      "start_at": "2023-02-26T15:30:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "DIE NACHBARN VON OBEN",
+      "start_at": "2023-03-01T20:00:00",
+      "is_3d": false
+    }
+  ]
+}

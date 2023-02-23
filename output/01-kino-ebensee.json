@@ -1,0 +1,52 @@
+{
+  "crawler": {
+    "id": "01-kino-ebensee",
+    "is_booking_link_capable": false,
+    "crawl-e": {
+      "version": "0.5.2"
+    }
+  },
+  "cinema": {
+    "name": "Kulturverein Kino Ebensee",
+    "address": "Schulgasse 6, 4802 Ebensee",
+    "website": "https://www.kino-ebensee.at/",
+    "phone": "0043 6133 6308"
+  },
+  "showtimes": [
+    {
+      "movie_title": "THE BANSHEES OF INISHERIN",
+      "start_at": "2023-02-24T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "THE BANSHEES OF INISHERIN",
+      "start_at": "2023-02-25T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "DER RÄUBER HOTZENPLOTZ",
+      "start_at": "2023-02-25T16:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "GUILLERMO DEL TOROS PINOCCHIO",
+      "start_at": "2023-03-04T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "SHE SAID",
+      "start_at": "2023-03-10T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "SHE SAID",
+      "start_at": "2023-03-11T20:00:00",
+      "is_3d": false
+    },
+    {
+      "movie_title": "Programm Winter 2023",
+      "start_at": "2023-03-11T20:00:00",
+      "is_3d": false
+    }
+  ]
+}

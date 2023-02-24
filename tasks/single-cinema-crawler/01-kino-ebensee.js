@@ -14,7 +14,6 @@ let crawlE = new CrawlE({
     movies: {
       box: ".eventWrap",
       title: ".eventHeader a",
-      //   For some reason, it's only generating max two showtimes per movie 🤔
       showtimes: {
         box: ".date",
         datetimeFormat: "dd, DD.MM.YY HH:mm [Uhr]",

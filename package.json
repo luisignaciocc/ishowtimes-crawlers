@@ -5,6 +5,8 @@
   "author": "Ignacio Collantes",
   "license": "MIT",
   "dependencies": {
-    "crawl-e/v0.5.2": "http://www.bitbucket.org/cinepass/crawl-e.git#v0.5.2"
+    "cheerio": "^1.0.0-rc.12",
+    "crawl-e/v0.5.2": "http://www.bitbucket.org/cinepass/crawl-e.git#v0.5.2",
+    "moment": "^2.29.4"
   }
 }

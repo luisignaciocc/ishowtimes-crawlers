@@ -11,15 +11,14 @@ let crawlE = new CrawlE({
       phone: "(909) 337-3997",
     },
   ],
-  movies: {
-    list: {
-      url: "https://bluejaycinema.com/wp-admin/admin-ajax.php",
-      postData:
-        "action=movies-filter&per_page=10&date=:date:&theatres=&cat=&sorting=release&list_all_events=&current_page=",
-      urlDateFormat: "DD.MM.YYYY",
+  showtimes: {
+    url: "https://bluejaycinema.com/wp-admin/admin-ajax.php",
+    postData:
+      "action=movies-filter&per_page=10&date=:date:&theatres=&cat=&sorting=release&list_all_events=&current_page=",
+    urlDateFormat: "DD.MM.YYYY",
+    movies: {
       box: ".event_list",
       title: ".movie_title a",
-      postId: ".event_list @id",
     },
   },
 });

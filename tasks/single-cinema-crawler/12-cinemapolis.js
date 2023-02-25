@@ -59,7 +59,6 @@ let crawlE = new CrawlE({
           is_3d: false,
         };
       });
-      console.log(showtimes);
       callback(null, formattedShowtimes);
     },
   },

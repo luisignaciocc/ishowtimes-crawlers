@@ -1,5 +1,3 @@
-// NOT GETTING MOVIES - CSR?
-
 const CrawlE = require("crawl-e/v0.5.2");
 
 let crawlE = new CrawlE({
@@ -15,12 +13,29 @@ let crawlE = new CrawlE({
     url: "https://bluejaycinema.com/wp-admin/admin-ajax.php",
     postData:
       "action=movies-filter&per_page=10&date=:date:&theatres=&cat=&sorting=release&list_all_events=&current_page=",
-    urlDateFormat: "DD.MM.YYYY",
+    urlDateFormat: "MM.DD.YYYY",
     movies: {
       box: ".event_list",
       title: ".movie_title a",
+      href: ".movie_title a @href",
+      id: {
+        selector: null,
+        attribute: "id",
+        mapper: (id) => id.replace("post-", ""),
+      },
+      // NOT WORKING
+      // showtimes: {
+      //   url: "https://bluejaycinema.com/wp-admin/admin-ajax.php",
+      //   postData:
+      //     "action=event-filter&all_tickets=&date=:date:&post_id=:movie.id:",
+      //   urlDateFormat: "MM.DD.YYYY",
+      //   box: "li",
+      //   time: ".time",
+      //   timeFormat: "HH:mm a",
+      // },
     },
   },
+  concurrency: 1,
 });
 
 crawlE.crawl();

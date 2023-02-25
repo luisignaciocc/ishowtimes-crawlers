@@ -52,9 +52,6 @@ let crawlE = new CrawlE({
     handleShowtimesResponse: (response, context, callback) => {
       const showtimes =
         JSON.parse(response.text).data.showingsForDate?.data || [];
-      // let formattedShowtimes = [
-      //   { movie_title: "test", start_at: "2023-02-24T20:00:00", is_3d: false },
-      // ];
       let formattedShowtimes = showtimes.map((showtime) => {
         return {
           movie_title: showtime.movie.name,

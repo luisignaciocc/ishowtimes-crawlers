@@ -1,3 +1,5 @@
+// NOT WORKING - CSR??
+
 const CrawlE = require("crawl-e/v0.5.2");
 
 let crawlE = new CrawlE({
@@ -10,19 +12,19 @@ let crawlE = new CrawlE({
   ],
   movies: {
     list: {
-      url: "https://kommkino.de/filme",
-      box: ".ic-content",
-      title: "h2",
-      href: "h2 a @href",
+      url: "https://imaxmelbourne.com.au/now_showing",
+      box: ".film-listing",
+      title: ".film-title",
+      href: ".btn-sessions a @href",
     },
     showtimes: {
-      url: "https://kommkino.de:movie.href:",
+      url: "https://imaxmelbourne.com.au:movie.href:",
       showtimes: {
-        box: ".ic-divTable",
-        date: ".ic-single-next",
-        dateFormat: "dddd, D. MMMM YYYY",
-        dateLocale: "de",
-        time: ".ic-single-starttime",
+        box: ".session-block",
+        date: ".date",
+        dateFormat: "dddd MMMM D",
+        time: ".label-time",
+        timeFormat: "HH:mm A",
       },
     },
   },

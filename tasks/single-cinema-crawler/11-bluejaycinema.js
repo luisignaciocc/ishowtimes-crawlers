@@ -1,3 +1,4 @@
+// NOT WORKING
 const CrawlE = require("crawl-e/v0.5.2");
 
 let crawlE = new CrawlE({
@@ -23,17 +24,16 @@ let crawlE = new CrawlE({
         attribute: "id",
         mapper: (id) => id.replace("post-", ""),
       },
-      // NOT WORKING
-      // showtimes: {
-      //   url: "https://bluejaycinema.com/wp-admin/admin-ajax.php",
-      //   postData:
-      //     "action=event-filter&all_tickets=&date=:date:&post_id=:movie.id:",
-      //   urlDateFormat: "MM.DD.YYYY",
-      //   box: "li",
-      //   time: ".time",
-      //   timeFormat: "HH:mm a",
-      // },
     },
+    // showtimes: {
+    //   url: "https://bluejaycinema.com/wp-admin/admin-ajax.php",
+    //   postData:
+    //     "action=event-filter&all_tickets=&date=:date:&post_id=:movie.id:",
+    //   urlDateFormat: "MM.DD.YYYY",
+    //   box: "li",
+    //   time: ".time",
+    //   timeFormat: "HH:mm a",
+    // },
   },
   concurrency: 1,
 });

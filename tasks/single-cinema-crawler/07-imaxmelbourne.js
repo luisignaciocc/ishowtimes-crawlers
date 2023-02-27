@@ -1,5 +1,4 @@
-// NOT WORKING - CSR??
-
+// NOT WORKING
 const CrawlE = require("crawl-e/v0.5.2");
 
 let crawlE = new CrawlE({
@@ -17,14 +16,16 @@ let crawlE = new CrawlE({
       title: ".film-title",
       href: ".btn-sessions a @href",
     },
-    showtimes: {
-      url: "https://imaxmelbourne.com.au:movie.href:",
+  },
+  showtimes: {
+    url: "https://imaxmelbourne.com.au:movie.href:",
+    dates: {
+      box: ".session-block",
+      date: "li:first-child",
+      dateFormat: "dddd, MMMM D",
       showtimes: {
-        box: ".session-block",
-        date: ".date",
-        dateFormat: "dddd MMMM D",
-        time: ".label-time",
-        timeFormat: "HH:mm A",
+        box: ".label-time",
+        timeFormat: "H:mma",
       },
     },
   },

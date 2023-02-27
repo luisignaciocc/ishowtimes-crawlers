@@ -43,7 +43,6 @@ let crawlE = new CrawlE({
         showtime.Sessions.map((session) => {
           const date = session.NewDate;
           session.Times.map((time) => {
-            console.log(time.StartTime);
             showtimes.push({
               movie_title: name,
               start_at: moment(
